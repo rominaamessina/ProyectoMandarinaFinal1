@@ -1,0 +1,27 @@
+.footer {
+    background-image: radial-gradient(rgb(240, 189, 131), coral, orangered);
+    height: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+
+
+}
+
+.footer ul {
+
+    list-style: none;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.footer ul a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
