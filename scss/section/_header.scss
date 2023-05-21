@@ -13,15 +13,17 @@
     min-height: 40vh;
     flex-wrap: wrap;
     background-image: radial-gradient(rgb(240, 189, 131), coral, orangered);
+
+    a img {
+        width: 200px;
+    animation-name: girando;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    }
 }
 
-.header a img {
-    width: 200px;
-animation-name: girando;
-animation-duration: 2s;
-animation-iteration-count: infinite;
-animation-delay: 5s;
-}
+
 
 .nav ul {
     display: flex;
